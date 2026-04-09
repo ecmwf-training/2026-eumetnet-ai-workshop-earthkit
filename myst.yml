@@ -26,6 +26,15 @@ project:
     - file: content/index.md
     - title: Tutorials
       file: content/tutorials/index.md
+      children:
+        - file: content/tutorials/01_loading_visualising_era5.ipynb
+        - file: content/tutorials/02_writing_to_zarr.ipynb
+        - file: content/tutorials/03_unit_conversion_normalisation.ipynb
+        - file: content/tutorials/04_grid_formats_regridding.ipynb
+        - file: content/tutorials/05_temporal_statistics.ipynb
+        - file: content/tutorials/06_chunking_strategies.ipynb
+        - file: content/tutorials/07_multi_source_polytope.ipynb
+        - file: content/tutorials/08_zarr_to_pytorch.ipynb
     - title: How-to
       file: content/howto/index.md
       children:

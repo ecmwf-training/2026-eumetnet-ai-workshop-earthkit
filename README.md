@@ -10,6 +10,7 @@ Please refer to the [rendered Jupyter Book](https://ecmwf-training.github.io/jup
 Clone the repository and install dependencies using [uv](https://docs.astral.sh/uv/):
 ```sh
 uv sync
+uvx pre-commit install
 ```
 
 Then build and render the book using [just](https://just.systems/):
