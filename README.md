@@ -7,16 +7,21 @@ Please refer to the [rendered Jupyter Book](https://ecmwf-training.github.io/jup
 
 ## For developers
 
-Clone the repository and create a conda/mamba environment for building Jupyter Books:
+Clone the repository and install dependencies using [uv](https://docs.astral.sh/uv/):
 ```sh
-conda create -y -n jupyter-build -c conda-forge python=3.12
-conda activate jupyter-build
-conda install "jupyter-book>=2,<3"
+uv sync
 ```
 
-Then build and render the book
+Then build and render the book using [just](https://just.systems/):
 ```sh
-jupyter book clean
-jupyter book build
-jupyter book start
+just build   # build the book
+just start   # build and serve locally
+just clean   # clean build artifacts
+```
+
+Or directly with uv:
+```sh
+uv run jupyter book clean
+uv run jupyter book build
+uv run jupyter book start
 ```
