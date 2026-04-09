@@ -6,7 +6,7 @@ This guide walks you through the minimum setup to create your own Jupyter Book b
 
 To clone this template repository and create your own Jupyter Book project, follow these steps:
 
-1. Open the [template repository](https://github.com/ecmwf-training/jupyterbook-template) on GitHub. 
+1. Open the [template repository](https://github.com/ecmwf-training/jupyterbook-template) on GitHub.
 2. Click **Use this template** (green button, top-right).
 3. Choose a repository name and owner.
 
@@ -16,7 +16,7 @@ Set the repo to *public* to enable GitHub Pages and Action artifacts.
 
 
 ## Update `myst.yml`
- 
+
 Update the project metadata to reflect your project details. In particular, update the `github` and `thebe.binder.repo` fields with your repository name:
 
 ```yaml

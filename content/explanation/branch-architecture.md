@@ -19,4 +19,3 @@ The **`Build`** action builds the JupyterBook using the same procedure as local 
 ### Deploy
 
 The **`Deploy`** action deploys the build JupyterBook to the GitHub Pages associated with this repository. This action is activated when a change is made to the develop branch, after the build action.
-

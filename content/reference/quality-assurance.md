@@ -24,8 +24,7 @@ Then, install the `flake8-nb` package and run the code standards tests on your n
 ```sh
 # install necessary packages
 conda install flake8-nb
- 
+
 # execute tests with CDS configuration options:
 flake8_nb --max-line-length 100 --max-doc-length 100 $NOTEBOOK
 ```
-

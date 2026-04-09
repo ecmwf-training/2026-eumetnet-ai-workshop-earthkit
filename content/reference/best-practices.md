@@ -15,10 +15,10 @@ All training material destined for CDS/ADS/CADS portals must satisfy the SWUMP c
 
 ### Filenames
 
-Filenames should use human-readable *slugs* that capture the notebook’s key themes, particularly those that distinguish it from other notebooks in the repository.  
+Filenames should use human-readable *slugs* that capture the notebook’s key themes, particularly those that distinguish it from other notebooks in the repository.
 
-- **Do not** include contract numbers or version identifiers in filenames.  
-- Contract numbers, where required, may be referenced in the Pull Request that introduces or modifies the notebook.  
+- **Do not** include contract numbers or version identifiers in filenames.
+- Contract numbers, where required, may be referenced in the Pull Request that introduces or modifies the notebook.
 - File versioning is managed automatically through GitHub and should not be duplicated in filenames.
 
 
@@ -33,12 +33,12 @@ The [Diátaxis documentation framework](../explanation/diataxis.md) is there to 
 
 ### Titles
 
-When selecting titles for your notebooks, consider the needs of a broad and diverse audience.  
+When selecting titles for your notebooks, consider the needs of a broad and diverse audience.
 
-Training notebooks serve as entry points to the subject matter and should therefore be titled in a way that is clear, accurate, and accessible. Titles must be:  
+Training notebooks serve as entry points to the subject matter and should therefore be titled in a way that is clear, accurate, and accessible. Titles must be:
 - **Concise** – easy to read  and limited to fewer than 80 characters.
-- **Accurate** – clearly reflect the notebook’s content and purpose.  
-- **Accessible** – avoid acronyms, abbreviations, or technical jargon that may not be widely understood.  
+- **Accurate** – clearly reflect the notebook’s content and purpose.
+- **Accessible** – avoid acronyms, abbreviations, or technical jargon that may not be widely understood.
 
 ### Section headings
 
@@ -47,7 +47,7 @@ Training notebooks serve as entry points to the subject matter and should theref
 
 
 ### TOC
-Keep the table of contents (TOC) clear and intuitive, that is, avoid long lists that clutter the view. See the official [MyST Markdown documentation](https://mystmd.org/guide/table-of-contents) for details on how to structure the table of contents. 
+Keep the table of contents (TOC) clear and intuitive, that is, avoid long lists that clutter the view. See the official [MyST Markdown documentation](https://mystmd.org/guide/table-of-contents) for details on how to structure the table of contents.
 
 
 ### Images
@@ -80,4 +80,3 @@ Refrain from using raw HTML—JupyterBook’s config may override or mis-render 
 ## Metadata
 
 Apply metadata at the notebook level and at the cell level according to a metadata-schema described here: https://github.com/ecmwf-training/jn-metadata-schema.
-

@@ -38,4 +38,3 @@ To get the link to the rendered Jupyter Book (GitHub pages), go to the "Actions"
 :::{tip}
 **Optional** You can make this link easier to locate in the future by adding it to the "About" section in the right hand panel of the "Code" tab. Click on the settings cog next to about and check the "Use your GitHub Pages website" checkbox.
 :::
-

@@ -10,5 +10,3 @@ Here, you find some background information about this Jupyter Book template, inc
 :::{note} About explanations
 Explanations are understanding-oriented material that provides context for why things work the way they do. [Learn more...](../explanation/diataxis.md)
 :::
-
-
