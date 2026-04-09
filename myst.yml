@@ -6,7 +6,9 @@ extends:
   - branding/c3s.yml
 
 project:
-  title: ECMWF Training Template
+  title: Earthkit -- EUMETNET AI Workshop 2026
+  description: >
+    Showcasing earthkit at the EUMETNET AI Workshop 2026 and DestinE User eXchange #5.
   license: Apache-2.0
   open_access: true
   exclude:
@@ -27,14 +29,22 @@ project:
     - title: Tutorials
       file: content/tutorials/index.md
       children:
-        - file: content/tutorials/01_loading_visualising_era5.ipynb
-        - file: content/tutorials/02_writing_to_zarr.ipynb
-        - file: content/tutorials/03_unit_conversion_normalisation.ipynb
-        - file: content/tutorials/04_grid_formats_regridding.ipynb
-        - file: content/tutorials/05_temporal_statistics.ipynb
-        - file: content/tutorials/06_chunking_strategies.ipynb
-        - file: content/tutorials/07_multi_source_polytope.ipynb
-        - file: content/tutorials/08_zarr_to_pytorch.ipynb
+        - title: "1. Loading and Visualising ERA5"
+          file: content/tutorials/01_loading_visualising_era5.ipynb
+        - title: "2. Writing to Zarr"
+          file: content/tutorials/02_writing_to_zarr.ipynb
+        - title: "3. Unit Conversion and Normalisation"
+          file: content/tutorials/03_unit_conversion_normalisation.ipynb
+        - title: "4. Grid Formats and Regridding"
+          file: content/tutorials/04_grid_formats_regridding.ipynb
+        - title: "5. Temporal Statistics and Derived Variables"
+          file: content/tutorials/05_temporal_statistics.ipynb
+        - title: "6. Chunking Strategies for ML"
+          file: content/tutorials/06_chunking_strategies.ipynb
+        - title: "7. Multi-source Ingestion and Polytope"
+          file: content/tutorials/07_multi_source_polytope.ipynb
+        - title: "8. From Zarr to PyTorch Training Loop"
+          file: content/tutorials/08_zarr_to_pytorch.ipynb
     - title: How-to
       file: content/howto/index.md
       children:

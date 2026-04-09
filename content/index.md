@@ -1,40 +1,22 @@
-# ECMWF Jupyter Book template
+# Earthkit -- EUMETNET AI Workshop 2026
 
-This repository provides a **ready-to-use template** for creating and maintaining **Jupyter Books** for learning, training, and technical documentation in C3S/CAMS projects implemented by ECMWF.
+This workshop showcases **earthkit** as a unified Python pipeline for working with meteorological data -- from heterogeneous sources through to analysis and ML-ready outputs.
 
-It serves two purposes:
+The key message: earthkit's `from_source()` abstraction means data from CDS, Polytope, local files, S3, FDB, or custom plugins all flow through the same transforms into a consistent output format.
 
-1. **Help you get started quickly.**
-    The template gives you a clear structure and consistent styling, so you can focus on your content.
-2. **Guide you along the way.**
-    It also documents recommended practices, helping you avoid rework later during reviews and publication.
+The notebooks are ordered as a learning path. Each builds on the previous, with the thread throughout being: _every step gets your data closer to a usable result_.
 
-In short, the template saves time twice: first by accelerating the initial setup, and later by reducing review cycles and fixes.
-
-
-::::{grid} 1 1 2 3
+::::{grid} 1 1 2 2
 
 :::{card}
-:header: Get started
-:link: ./howto/setup-book
-Follow step-by-step instructions to set up your Jupyter Book.
+:header: Tutorials
+:link: ./tutorials/index
+Eight notebooks taking you from loading ERA5 data through to a PyTorch training loop.
 :::
 
 :::{card}
-:header: Notebook template
-:link: ./reference/template-notebook
-Start from a minimal notebook template that already follows best practices.
-:::
-
-:::{card}
-:header: Best practices
-:link: ./reference/best-practices
-Learn how to develop clear and review-ready notebooks.
+:header: Target audiences
+EUMETNET-AI workshop participants from national meteorological and hydrological services, and the DestinE community at DUX#5.
 :::
 
 ::::
-
-
-:::{note} 
-This documentation is organised using the [Diátaxis framework](./explanation/diataxis.md). We recommend using the same approach when structuring your own project’s Jupyter Book.
-:::

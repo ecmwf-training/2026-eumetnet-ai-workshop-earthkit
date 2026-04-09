@@ -1,28 +1,32 @@
-# ECMWF Jupyter Book template
+# Earthkit -- EUMETNET AI Workshop 2026
 
-This repository is a GitHub **template** for creating and maintaining ECMWF Jupyter Books for learning and documentation resources.
+Notebooks for the EUMETNET AI Workshop 2026, showcasing earthkit as a unified Python pipeline from heterogeneous meteorological data sources to ML-ready Zarr stores.
 
-## For authors
-Please refer to the [rendered Jupyter Book](https://ecmwf-training.github.io/jupyterbook-template/) for detailed instructions on how to set up and develop your Jupyter Book using this template.
+## Notebooks
 
-## For developers
+| # | Topic |
+| - | ----- |
+| 1 | Loading and Visualising ERA5 |
+| 2 | Writing to Zarr |
+| 3 | Unit Conversion and Normalisation |
+| 4 | Grid Formats and Regridding |
+| 5 | Temporal Statistics and Derived Variables |
+| 6 | Chunking Strategies for ML |
+| 7 | Multi-source Ingestion and Polytope |
+| 8 | From Zarr to PyTorch Training Loop |
+
+## Development
 
 Clone the repository and install dependencies using [uv](https://docs.astral.sh/uv/):
+
 ```sh
 uv sync
-uvx pre-commit install
 ```
 
 Then build and render the book using [just](https://just.systems/):
+
 ```sh
 just build   # build the book
 just start   # build and serve locally
 just clean   # clean build artifacts
-```
-
-Or directly with uv:
-```sh
-uv run jupyter book clean
-uv run jupyter book build
-uv run jupyter book start
 ```
