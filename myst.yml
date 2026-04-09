@@ -11,7 +11,7 @@ project:
   open_access: true
   exclude:
     - developer/*
-  github: ecmwf-training/jupyter-template
+  github: ecmwf-training/2026-eumetnet-ai-workshop-earthkit
   thebe:
     binder:
       repo: ecmwf-training/2026-eumetnet-ai-workshop-earthkit
