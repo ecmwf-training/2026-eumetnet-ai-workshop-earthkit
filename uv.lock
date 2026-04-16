@@ -31,7 +31,7 @@ requires-dist = [
     { name = "earthkit-geo", extras = ["all"], specifier = "==1.0.0rc1" },
     { name = "earthkit-meteo", extras = ["all"], specifier = "==1.0.0rc1" },
     { name = "earthkit-plots", extras = ["geocoding", "healpix", "regridding"], specifier = "==1.0.0rc1" },
-    { name = "earthkit-transforms", extras = ["all"], specifier = "==1.0.0rc1" },
+    { name = "earthkit-transforms", extras = ["all"], specifier = "==1.0.0rc2" },
     { name = "earthkit-utils", specifier = "==1.0.0rc1" },
     { name = "ipykernel", specifier = ">=7.2" },
     { name = "jupyter", specifier = ">=1.1.1" },
